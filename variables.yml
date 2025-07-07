@@ -6,4 +6,4 @@
   tasks:
   - name: Use local varialbes
     ansible.builtin.debug:
-      msg: "echo I'm using local varialbes i.e., {{ environment }}"
+      msg: "I'm using local varialbes i.e., {{ environment }}"
