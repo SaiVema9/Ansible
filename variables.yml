@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars:
-    development: test
+    environment: test
   tasks:
   - name: Use local varialbes
     ansible.builtin.debug:
-      msg: "I'm using local varialbes i.e., {{ development }}"
+      msg: "I'm using local varialbes i.e., {{ environment }}"
