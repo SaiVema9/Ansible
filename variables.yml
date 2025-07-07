@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    development: dev
+    development: test
   tasks:
   - name: Use local varialbes
     ansible.builtin.debug:
